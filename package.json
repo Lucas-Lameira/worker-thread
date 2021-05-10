@@ -4,19 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "testBlock": "nodemon ./src/testeBlocking/index.js",
-    "testNonBlocking": "nodemon ./src/testeNonBlocking/index.js",
-    "server": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1" 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
     "fibonacci": "^1.6.7"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
+  }  
 }
